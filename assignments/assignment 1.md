@@ -49,5 +49,25 @@ here is a proper neat diagram
 
    VoIP
    it stands for Voice over Internet Protocol, Used to make voice calls using the internet instead of telephone lines.
-   
+
+   7. ”The Internet is a network of networks.” Elaborate on this statement explaining how packet switching works.
+      The Internet is called a network of networks because it connects millions of smaller networks (home networks, school networks, office networks, ISP networks) into one global system.
+
+How packet switching works:
+When data is sent over the Internet, it is broken into small packets.
+Each packet contains:
+    Part of the data
+    Source address
+    Destination address
+Packets travel through different routes across multiple networks.
+Routers decide the best available path for each packet.
+At the destination, packets are reassembled in the correct order.
+
+Why packet switching is important:
+Efficient use of network resources
+Faster and reliable communication
+If one path fails, packets take another route
+
+Simple example:
+Sending a message is like sending a book page by page through different roads; all pages are collected and arranged at the end
    
