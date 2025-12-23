@@ -77,6 +77,7 @@ As the website should be convenient to all users. every user have their own expe
 
 9. A user types www.google.com into their browser, but the browser displays a ”Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.
 the failure of the "Server Not Found" might have many reasons and the site was accessed via 142.250.290.46 workd also has its own working system here i have breaked it down.
+
 failure reasons
 possibly the DNS didnt found the domain name with in DNS resolver.
 the website was may be tipically banned by the ISP.
@@ -86,4 +87,5 @@ accessed from 142.250.190.46 working reason
 this relies main from the ISP reason. As ISP can banned specific websited from their service and the change of ip address using the VPN can accessed through it eventhough the website was banned by ISP. as the user might have changed the id address as the ip address 142.250.190.46 might be a another ip address. 
 
 10. A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
- the corperation should implement Extranet network. because extranet is a private ans secure and not a network as public network where any one can access it. With in the extranet the host can give access or permission to specefic allowed user to access it. this way the multinational corporaion can share the sensitive inventory data with their connected user or parties freely without consorning about the security of it. 
+
+the corperation should implement Extranet network. because extranet is a private ans secure and not a network as public network where any one can access it. With in the extranet the host can give access or permission to specefic allowed user to access it. this way the multinational corporaion can share the sensitive inventory data with their connected user or parties freely without consorning about the security of it. 
