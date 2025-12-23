@@ -70,4 +70,20 @@ If one path fails, packets take another route
 
 Simple example:
 Sending a message is like sending a book page by page through different roads; all pages are collected and arranged at the end
-   
+
+8. A startup company wants to host a website that displays the same information to all visitors and requires very low maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer.
+Yes I will surely agree the justification of the statement.
+As the website should be convenient to all users. every user have their own expectation and searching for what they will or want somthing from the web site. By just keeping the website information same to all vesitors might not be good and user firendly. there is no sure of specefic that the all visitors have the same mind set to visit the website. as a user my self when i visit the web site i have a different perspective of what i need along with the items catagories and chose them. if the product or service the company is going to provide then they should highlght the main topics, give a full discriptions, more details and samples like photos. because of this all visitors can clarify about the product, some might only see the highlights, some full discriptions, some other samples etc. so there how it makes the differences of just keeping the information same to all visitors, if we assum that the website has only mentioned the highlights not other details than those other visitors vist might not find exact what they are looking for.
+
+9. A user types www.google.com into their browser, but the browser displays a ”Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.
+the failure of the "Server Not Found" might have many reasons and the site was accessed via 142.250.290.46 workd also has its own working system here i have breaked it down.
+failure reasons
+possibly the DNS didnt found the domain name with in DNS resolver.
+the website was may be tipically banned by the ISP.
+in some normal cases internet problem also might occure and showed temporary that problem.
+
+accessed from 142.250.190.46 working reason 
+this relies main from the ISP reason. As ISP can banned specific websited from their service and the change of ip address using the VPN can accessed through it eventhough the website was banned by ISP. as the user might have changed the id address as the ip address 142.250.190.46 might be a another ip address. 
+
+10. A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
+ the corperation should implement Extranet network. because extranet is a private ans secure and not a network as public network where any one can access it. With in the extranet the host can give access or permission to specefic allowed user to access it. this way the multinational corporaion can share the sensitive inventory data with their connected user or parties freely without consorning about the security of it. 
