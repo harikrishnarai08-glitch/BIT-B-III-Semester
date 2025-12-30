@@ -10,6 +10,108 @@ in simple with example
 A sitemap is a visual or textual representation of a website’s pages and their hierarchical relationship, created during the planning phase to organize content and navigation.
 
 Decide navigation paths before development starts
+
 2. What is the purpose of the ”Launch” phase in web development?
+The Launch phase is the final stage of the web development process, where the website is made live and accessible to users. Its main purpose is to ensure that the website is fully functional, stable, and ready for public use.
+
+Key purposes of the Launch phase:
+Deploying the Website
+   The website is uploaded to the live server or hosting environment.
+   Domain name is connected so users can access it online.
+
+Final Testing
+   Check for bugs, broken links, loading issues, and errors.
+   Ensure the website works properly on different browsers and devices (desktop, mobile, tablet).
+Performance & Security Check
+   Verify page speed, server response, and basic security settings.
+   Ensure forms, databases, and user interactions work correctly.
+Content Verification
+   Confirm that all text, images, videos, and links are correct and complete.
+   Remove placeholder or test content.
+User Accessibilit
+   Make the website available to the target audience.
+   Ensure usability and smooth navigation.
+
 3. Why is ”Documentation” important in the development lifecycle?
+Documentation is important in the development lifecycle because it provides a clear record of the system’s design, functionality, and usage. It helps developers, testers, and users understand how the system works and how it should be maintained.
+
+Importance of Documentation:
+  1:Improves understanding – It explains system requirements, design, and workflow, making the project easier to understand for new and existing team members.
+  2:Aids maintenance and updates – Proper documentation helps developers fix bugs, add features, and update the system efficiently.
+  3:Ensures consistency – It acts as a reference to ensure the system is developed according to requirements.
+  4:Supports communication – It improves communication between developers, managers, and clients.
+  5:Helps users – User manuals and guides help users operate the system correctly.
+  6:Saves time and cost – Reduces confusion and rework during development and future enhancements.
+
 4. Differentiate between Front-end and Back-end development
+Front-end Development
+Deals with user interface
+What users see and interact with	
+Uses HTML, CSS, JavaScript	
+Focuses on design and usability	
+Runs in the browser	
+
+Back-end Development
+Deals with server-side logic
+Works behind the scenes
+Uses PHP, Python, Java, Node.js
+Focuses on databases and security
+Runs on the server
+
+Long Question 
+5. ”Planning is the most critical phase of web development.” Discuss this statement by listing
+the key activities performed during the planning phase.
+Planning is considered the most critical phase of web development because it lays the foundation for the entire project. A well-planned website reduces errors, saves time and cost, and ensures that the final product meets user and business requirements. If planning is weak, problems appear in later stages like design, development, and maintenance.
+
+The key activities performed during the planning phase are:
+ 1. Requirement Analysis
+   This involves understanding the purpose of the website and the needs of users and clients.
+   It answers questions like:
+   What is the website for?
+   Who are the target users?
+   What features are required?
+
+ 2. Defining Goals and Objectives
+   Clear goals are set, such as:  
+   Increasing online presence
+   Selling products
+   Providing information or services
+   This helps guide design and development decisions.
+
+ 3. Target Audience Identification
+   Understanding the audience’s age, device usage, language, and preferences helps in designing a user-friendly website.
+
+ 4. Content Planning
+   Deciding what content will be included:
+   Text
+   Images
+   Videos
+   Forms
+   This ensures relevant and organized information.
+
+ 5. Sitemap Creation
+   A sitemap defines the structure of the website, showing how pages are connected.
+   It helps in easy navigation and better user experience.
+
+ 6. Technology Selection
+   Choosing appropriate technologies such as:
+   Front-end (HTML, CSS, JavaScript)
+   Back-end (PHP, Python, Node.js)
+   Database (MySQL, MongoDB)
+
+ 7. Budget and Time Estimation
+   Planning includes estimating
+   Project cost
+   Development timeline
+   This helps in managing resources efficiently.
+
+ 8. Risk Identification
+   Possible risks such as technical issues, budget overruns, or security concerns are identified in advance.
+
+
+
+
+6. Explain the iterative nature of the Maintenance phase. Why is a website never truly
+”finished”?
+7. Describe the process of ”Information Gathering.” Why is understanding the target audi
+ence crucial during this step?
