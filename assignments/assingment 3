@@ -1,0 +1,38 @@
+ Short Questions 
+ 
+1. Define Information Architecture (IA).
+Information Architecture (IA) is the process of organizing, structuring, and labeling website content so that users can easily find and understand information.
+
+2. What is a ”Wireframe”?
+A wireframe is a simple visual blueprint of a website that shows the layout and placement of elements (like menus, buttons, content) without detailed design or colors.
+
+3. Explain the concept of ”Cognitive Friction” in web design.
+Cognitive friction refers to the mental effort required by users when a website is confusing, poorly organized, or difficult to navigate, which reduces usability and user satisfaction.
+
+4. Why should URL slugs use hyphens instead of underscores?
+Hyphens are preferred because search engines treat hyphens as word separators, improving readability and SEO, whereas underscores are not recognized as separators.
+
+5. Compare and contrast Hierarchical (Tree) structure and Linear (Sequential) structure.
+Give an example of when to use each.
+Aspect            	Hierarchical Structure	          Linear Structure
+Organization	      Parent-child structure	          Step-by-step order
+Navigation        	Multiple paths	                  Single path
+Usage              	Large websites                   	Tutorials, forms
+
+Example:
+Hierarchical: University website (Home → Departments → Courses)
+Linear: Online exam or checkout process
+
+6. Explain the ”Three-Click Rule” and its significance in User Experience (UX) design.
+The Three-Click Rule states that users should find any information within three clicks.
+Its significance lies in improving user satisfaction, reducing frustration, and increasing engagement by making navigation simple and efficient.
+
+
+7. ”Plan before you do.” Explain how tools like Card Sorting and Flowcharts help in planning
+a website’s structure
+
+Card Sorting: Helps organize content based on how users think, improving navigation and IA.
+Flowcharts: Visually represent user paths and interactions, helping designers plan logical and efficient workflows.
+
+Together, they reduce errors and ensure a user-centered website structure.
+
