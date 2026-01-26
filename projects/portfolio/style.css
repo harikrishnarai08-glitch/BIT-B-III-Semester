@@ -13,7 +13,7 @@
 }
 
 :root {
-    --bg-color: #eff6f8;
+    --bg-color: #1f242d;
     --second-bg-color: #e7ecf5;
     --text-color: #1ede64;
     --main-color: #1f242d;
@@ -30,11 +30,17 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
-    /* background-color: #0ef;
-    background-col; */
+
 }
 
-selection {
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
@@ -44,13 +50,13 @@ selection {
     top: 0;
     right: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 2rem 10%;
     background: var(--main-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-filter: blur(10px);
+    background-origin: blur(10px);
     transition: all 0.3s ease;
 
 }
@@ -83,7 +89,7 @@ selection {
     color: var(--main-color);
 }
 
-#mwnu-icon {
+#menu-icon {
     font-size: 5rem;
     color: var(--text-color);
     display: none;
@@ -91,33 +97,75 @@ selection {
 }
 
 /* home section code */
+
 .home {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    gap: 5rem;
+    padding: 10rem 10% 2rem;
+    gap: 8rem;
+    flex-direction: row;
 }
 
 .home-content {
     flex: 2;
+    max-width: 60rem;
 }
 
+
+.home-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img::before {
+    content: '';
+    position: absolute;
+    width: 32vw;
+    /* Match your image size */
+    height: 32vw;
+    border-radius: 50%;
+    background: conic-gradient(transparent, transparent, transparent, var(--main-color));
+    animation: rotateShadow 2s linear infinite;
+    opacity: 0;
+    /* Hidden by default */
+    transition: 0.5s;
+}
+
+.home-img:hover::before {
+    opacity: 1;
+    /* Shows up on hover */
+    filter: blur(10px);
+}
+
+@keyframes rotateShadow {
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 .home-img img {
     width: 25vw;
     border-radius: 50%;
-    box-shadow: 0 0 20px var(--main-color);
+    box-shadow: 0 0 20px var(--text-color);
     cursor: pointer;
     animation: floatImage 3s ease-in-out infinite;
     transition: 0.4s ease;
+    z-index: 1;
+    border: 30vw;
+    ;
+
 
 }
 
+
+
 .home-img img:hover {
-    box-shadow: 0 0 30px var(--main-color);
-    0 0 40px var(--main-color);
-    0 0 50px var(--main-color);
+    box-shadow: 0 0 30px var(--text-color);
+    0 0 40px var(--text-color);
+    0 0 50px var(--text-color);
 
 }
 
@@ -149,7 +197,7 @@ selection {
 }
 
 span {
-    color: var(--main-color)
+    color: white
 }
 
 .home-content h1 {
@@ -169,10 +217,10 @@ span {
     width: 42px;
     height: 42px;
     background: transparent;
-    border: 0.2rem solid var(--main-color);
+    border: 0.2rem solid white;
     border-radius: 50%;
     font-size: 2rem;
-    color: var(--main-color);
+    color: var(--text-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
 }
@@ -183,17 +231,24 @@ social-media a:hover {
     background-color: var(--main-color);
     color: var(--bg-color);
     box-shadow: 0 0 25px var(--main-color);
+    transform: scale(1.2) rotate(15deg);
+    border-radius: 0 0 15px
+}
+
+.social-media a:active {
+    transform: scale(0.9);
 }
 
 
-btn {
+.btn {
     display: inline-block;
     padding: 1rem 2.5rem;
-    background-color: var(--main-color);
+    background-color: whitesmoke;
     border-radius: 4rem;
-    box-shadow: none;
+    box-shadow: var(--text-color);
+    box-shadow: ;
     font-size: 1.6rem;
-    color: var(--bg-color);
+    color: var(--text-color);
     letter-spacing: 0.1rem;
     font-weight: 600;
     transition: 0.3s ease;
@@ -202,3 +257,148 @@ btn {
 .btn:hover {
     box-shadow: 0 01.6rem var(--main-color);
 }
+
+
+/* About section code */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--main-color);
+    padding: 10rem 10%;
+}
+
+.about-img img {
+    width: 25vw;
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 25px var(--text-color);
+    cursor: pointer;
+    transition: 0.4s ease;
+    border-radius: 50%;
+}
+
+.about-img img:hover {
+    box-shadow: 0 0 30px var(--text-color);
+    0 0 40px var(--text-color);
+    0 0 50px var(--text-color);
+}
+
+.heading {
+    font-size: 6rem;
+    text-align: left;
+}
+
+.about-content {
+    padding: 0 4rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 3rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Service section code  */
+
+
+.services {
+    text-align: center;
+    padding: 10rem 10% 2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 5rem;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--main-color);
+    padding: 6rem 2rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid var(--text-color);
+    transition: 0.3s ease;
+}
+
+
+.services-container .service-box:hover {
+    border-color: var(--text-color);
+    transform: scale(1.02);
+
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    color: white;
+}
+
+
+/* Hide the real mouse if you want, or keep it */
+/* html {
+    cursor: none;
+} */
+/* 
+.cursor-dot,
+.cursor-outline {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    transition: transform 0.1s ease-out;
+}
+
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(var(--text-color), var(--second-bg-color));
+}
+
+.cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--main-color);
+    transition: all 0.2s ease-out;
+} */
